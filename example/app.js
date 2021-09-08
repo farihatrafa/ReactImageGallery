@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import ImageGallery from 'src/ImageGallery';
 
-const PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
+const PREFIX_URL = 'https://raw.githubusercontent.com/farihatrafa/react-image-gallery/master/static/';
 
 class App extends React.Component {
 
@@ -16,8 +16,8 @@ class App extends React.Component {
       showThumbnails: true,
       showFullscreenButton: true,
       showGalleryFullscreenButton: true,
-      showPlayButton: true,
-      showGalleryPlayButton: true,
+      showPlayButton: false,
+      showGalleryPlayButton: false,
       showNav: true,
       isRTL: false,
       slideDuration: 450,
@@ -32,7 +32,7 @@ class App extends React.Component {
       {
         thumbnail: `${PREFIX_URL}4v.jpg`,
         original: `${PREFIX_URL}4v.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/4pSzhZ76GdM?autoplay=1&showinfo=0',
+        embedUrl: 'https://www.youtube.com/embed/VWrNsF1twW8',
         description: 'Hello World!',
         renderItem: this._renderVideo.bind(this)
       },

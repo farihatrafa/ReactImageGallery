@@ -30,10 +30,59 @@ class App extends React.Component {
 
     this.images = [
       {
-        thumbnail: `${PREFIX_URL}4v.jpg`,
-        original: `${PREFIX_URL}4v.jpg`,
+        thumbnail: `${PREFIX_URL}owen3t.jpg`,
+        original: `${PREFIX_URL}owen3t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/LDxE_uUoajI',
+        description: 'Owens Street Spring 3',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}owen4t.jpg`,
+        original: `${PREFIX_URL}owen4t.jpg`,
         embedUrl: 'https://www.youtube.com/embed/VWrNsF1twW8',
-        description: 'Hello World!',
+        description: 'Owens Street Spring 4',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}robinson3t.jpg`,
+        original: `${PREFIX_URL}robinson3t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/u9qj4tcSxMQ',
+        description: 'Robinson Spring 3',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}robinson4t.jpg`,
+        original: `${PREFIX_URL}robinson4t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/6aNrtwoB_xU',
+        description: 'Robinson Spring 4',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}spout3t.jpg`,
+        original: `${PREFIX_URL}spout3t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/jT7Af29CxLY',
+        description: 'Spout Spring 3',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}spout4t.jpg`,
+        original: `${PREFIX_URL}spout4t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/_H-rGw012aM',
+        description: 'Spout Spring 4',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}triple3t.jpg`,
+        original: `${PREFIX_URL}triple3t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/bhtPp2z36v4',
+        description: 'Triple Point 3',
+        renderItem: this._renderVideo.bind(this)
+      },
+      {
+        thumbnail: `${PREFIX_URL}triple4t.jpg`,
+        original: `${PREFIX_URL}triple4t.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/G8h7AdGMZWc',
+        description: 'Triple Point 4',
         renderItem: this._renderVideo.bind(this)
       },
       {

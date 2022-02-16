@@ -29,34 +29,7 @@ class App extends React.Component {
     };
 
     this.images = [
-      {
-        thumbnail: `${PREFIX_URL}owen3t.jpg`,
-        original: `${PREFIX_URL}owen3t.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/LDxE_uUoajI',
-        description: 'Owens Street Spring 3',
-        renderItem: this._renderVideo.bind(this)
-      },
-      {
-        thumbnail: `${PREFIX_URL}owen4t.jpg`,
-        original: `${PREFIX_URL}owen4t.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/VWrNsF1twW8',
-        description: 'Owens Street Spring 4',
-        renderItem: this._renderVideo.bind(this)
-      },
-      {
-        thumbnail: `${PREFIX_URL}robinson3t.jpg`,
-        original: `${PREFIX_URL}robinson3t.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/u9qj4tcSxMQ',
-        description: 'Robinson Spring 3',
-        renderItem: this._renderVideo.bind(this)
-      },
-      {
-        thumbnail: `${PREFIX_URL}robinson4t.jpg`,
-        original: `${PREFIX_URL}robinson4t.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/6aNrtwoB_xU',
-        description: 'Robinson Spring 4',
-        renderItem: this._renderVideo.bind(this)
-      },
+      
       {
         thumbnail: `${PREFIX_URL}spout3t.jpg`,
         original: `${PREFIX_URL}spout3t.jpg`,
@@ -71,40 +44,34 @@ class App extends React.Component {
         description: 'Spout Spring 4',
         renderItem: this._renderVideo.bind(this)
       },
-      {
-        thumbnail: `${PREFIX_URL}triple3t.jpg`,
-        original: `${PREFIX_URL}triple3t.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/bhtPp2z36v4',
-        description: 'Triple Point 3',
-        renderItem: this._renderVideo.bind(this)
-      },
-      {
-        thumbnail: `${PREFIX_URL}triple4t.jpg`,
-        original: `${PREFIX_URL}triple4t.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/G8h7AdGMZWc',
-        description: 'Triple Point 4',
-        renderItem: this._renderVideo.bind(this)
-      },
-      {
-        original: `${PREFIX_URL}image_set_default.jpg`,
-        thumbnail: `${PREFIX_URL}image_set_thumb.jpg`,
-        imageSet: [
-          {
-            srcSet: `${PREFIX_URL}image_set_cropped.jpg`,
-            media : '(max-width: 1280px)',
-          },
-          {
-            srcSet: `${PREFIX_URL}image_set_default.jpg`,
-            media : '(min-width: 1280px)',
-          }
-        ]
-      },
+      // {
+      //   original: `${PREFIX_URL}1.jpg`,
+      //   thumbnail: `${PREFIX_URL}.jpg`,
+      //   imageSet: [
+      //     {
+      //       srcSet: `${PREFIX_URL}image_set_cropped.jpg`,
+      //       media : '(max-width: 1280px)',
+      //     },
+      //     {
+      //       srcSet: `${PREFIX_URL}image_set_default.jpg`,
+      //       media : '(min-width: 1280px)',
+      //     }
+      //   ]
+      // },
       {
         original: `${PREFIX_URL}1.jpg`,
         thumbnail: `${PREFIX_URL}1t.jpg`,
         originalClass: 'featured-slide',
         thumbnailClass: 'featured-thumb',
-        description: 'Stroubles Creek - Eastern Continental Divide: Water flowing east to Atlantic Ocean, west to Gulf of Mexico. Also the 1763 Proclamation Line.'
+        description: 'Spout Spring flows year around'
+      },
+
+      {
+        original: `${PREFIX_URL}2.jpg`,
+        thumbnail: `${PREFIX_URL}2t.jpg`,
+        originalClass: 'featured-slide',
+        thumbnailClass: 'featured-thumb',
+        description: 'Town' + 's freshwater trail sign'
       },
     ].concat(this._getStaticImages());
   }

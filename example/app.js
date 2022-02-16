@@ -73,6 +73,20 @@ class App extends React.Component {
         thumbnailClass: 'featured-thumb',
         description: 'Town' + 's freshwater trail sign'
       },
+      {
+        original: `${PREFIX_URL}3.jpg`,
+        thumbnail: `${PREFIX_URL}3t.jpg`,
+        originalClass: 'featured-slide',
+        thumbnailClass: 'featured-thumb',
+        description: '"Phillip" from the 16 Frogs exhibit'
+      },
+      {
+        original: `${PREFIX_URL}4.jpg`,
+        thumbnail: `${PREFIX_URL}4t.jpg`,
+        originalClass: 'featured-slide',
+        thumbnailClass: 'featured-thumb',
+        description: 'Blacksburg' + 's original 16 squares - Spout Spring defined SE corner (blue circle)'
+      },
     ].concat(this._getStaticImages());
   }
 

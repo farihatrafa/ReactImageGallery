@@ -131,7 +131,7 @@ class App extends React.Component {
 
   _getStaticImages() {
     let images = [];
-    for (let i = 2; i < 12; i++) {
+    for (let i = 2; i < 4; i++) {
       images.push({
         original: `${PREFIX_URL}${i}.jpg`,
         thumbnail:`${PREFIX_URL}${i}t.jpg`
